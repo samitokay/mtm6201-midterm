@@ -2,17 +2,17 @@
     font-family: 'Open Sans';
   }
   
-  .header {
+  .home-header {
     text-align: center;
   }
   
-  .header h1 {
+  .home-header h1 {
     color: #3484ed;
     font-weight: bold;
     font-size: 1.5rem;
   }
   
-  .header h3 {
+  .home-header h3 {
     color: #797d83;
     font-weight: lighter;
   }
@@ -40,19 +40,18 @@
     transition: transform 0.5s ease; 
   }
   
-  
-  .header {
+  .home-header {
     text-align: center;
   }
 
-  .header h1 {
+  .home-header h1 {
     color: #3484ed;
     font-weight: bold;
     font-size: 2.3rem;
     padding: 1rem;
   }
   
-  .header h3 {
+  .home-header h3 {
     color: #797d83;
     font-size: 1.5rem;
   }
