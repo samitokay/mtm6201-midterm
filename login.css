@@ -99,11 +99,10 @@ form button:focus {
     
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 720px) {
     body {
-        display: grid;
-        grid-template-columns: 42rem;
         width: 100%;
         justify-content: center;
+        display: grid;
     }
 }
