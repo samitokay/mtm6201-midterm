@@ -1,0 +1,109 @@
+body {
+    font-family: 'Open Sans';
+}
+
+
+.header-text h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.header-text h3 {
+    color: #797d83;
+    padding-bottom: 1rem;
+    font-size: small;
+}
+
+.backarrow h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.login-fields input {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    width: 94%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.login-fields h4 {
+    color: #797d83;
+    margin-bottom: 1rem;
+    font-size: small;
+}
+
+
+.password-input .fa-eye {
+    top: 50%;
+    right: 5px;
+    cursor: pointer;
+}
+
+
+
+.password-radio {
+    display: flex;
+}
+
+.radio1 {
+    flex-grow: 1; 
+}
+
+.radio2 {
+    text-align: right;
+}
+
+
+.login-button {
+    display: flex;
+    justify-content: center;
+}
+
+.login-button a {
+    background-color: #3484ed;
+    border: 2px solid #3484ed;
+    color: white;
+    font-size: 16px;
+    padding: 18px 75px;
+    margin: 30px 60px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-button a:hover {
+    transform: scale(1.5); 
+    transition: transform 0.5s ease; 
+}
+
+.login-button a:focus {
+    background-color: #3484ed;
+    color: white;
+}
+
+form input:focus {
+    background-color: #0d65d8;
+    font-weight: bold;
+    
+}
+
+form button:focus {
+    background-color: #0d65d8;
+    font-weight: bold;
+    
+}
+
+@media only screen and (min-width: 760px) {
+    body {
+        display: grid;
+        grid-template-columns: 42rem;
+        width: 100%;
+        justify-content: center;
+    }
+}
