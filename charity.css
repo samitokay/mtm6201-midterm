@@ -1,0 +1,186 @@
+/* Setting font family for the whole document */
+body {
+    font-family: 'Open Sans';
+  }
+
+/* Styling for the main header */
+.main-header {
+   
+    padding: 20px;
+    position: relative;
+}
+
+/* Styling for the profile picture */
+.profile-pic img {
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px;/
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+}
+
+/* Styling for the header text */
+.headertext h1 {
+    font-weight: bold;
+    font-size: 2rem; 
+    margin-bottom: 10px; 
+}
+
+.headertext h4 {
+    color: #797d83;
+    padding-bottom: 1rem;
+    font-size: 1rem; 
+}
+
+/* Styling for the header buttons */
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; 
+}
+
+
+.profile-button {
+    background-color: #3484ed;
+    border: 2px solid #3484ed;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.profile-button:hover {
+    background-color: #265aa6;
+}
+
+/* Styling for the focused state of the buttons */
+.profile-button:focus {
+    background-color: #0d65d8;
+    font-weight: bold;
+}
+
+/* Styling for the header buttons */
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-button {
+    background-color: #3484ed;
+    border: 2px solid #3484ed;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dismiss-button {
+    background-color: white; 
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.profile-button:hover {
+    background-color: #265aa6;
+}
+
+.dismiss-button:hover {
+    background-color: #f0f0f0; 
+}
+
+/* Styling for the focused state of the buttons */
+.profile-button:focus, .dismiss-button:focus {
+    background-color: #0d65d8;
+    font-weight: bold;
+}
+
+/* Styling for the trending charities section */
+.charity-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.charity-section h4 {
+    margin-bottom: 20px;
+}
+
+/* Styling for the charity cards */
+.charity-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.charity-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.charity-info {
+    padding: 10px;
+}
+
+.charity-title {
+    margin-top: 0;
+}
+
+.charity-progress {
+    width: 100%;
+    height: 10px;
+    margin: 10px 0;
+}
+
+.charity-subinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.charity-tagline, .charity-price {
+    flex-grow: 1;
+}
+
+/* Styling for the navigation footer */
+.nav-footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-footer a {
+    color: #3484ed;
+    text-decoration: none;
+}
+
+.nav-footer a:hover {
+    text-decoration: underline;
+}
