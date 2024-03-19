@@ -1,0 +1,113 @@
+<!DOCTYPE html> <!-- Specifies the document type and version of HTML being used -->
+<html lang="en"> <!-- Defines the beginning of the HTML document with English language -->
+
+<head>
+  <!-- Meta tags provide metadata about the HTML document -->
+  <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Sets the compatibility mode for Internet Explorer -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+  
+  <!-- Linking to external CSS stylesheets -->
+  <link rel="stylesheet" href="charity.css"> <!-- Links to a local CSS file -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Links to Google Fonts for Material Icons -->
+
+</head>
+
+<body>
+  
+  <!-- Main header section -->
+  <div class="main-header"> 
+    <header>
+      <!-- Profile information section -->
+      <div class="profile-pic">
+        <img src="images/profilepic100.png" class="profile-pic"> <!-- Displays a profile picture -->
+      </div>
+
+      <!-- Header text section -->
+      <div class="headertext" label="welcome-matthew">
+        <h1>Welcome, <span>Matthew Anderson</span></h1> <!-- Displays a welcome message with the user's name -->
+        <h4>Let's get started by adding more information to your profile.</h4> <!-- Provides a message prompting the user to add more information -->
+      </div>
+
+      <!-- Header buttons section -->
+      <div class="header-buttons">
+        <!-- Profile button -->
+        <button class="profile-button" label="Go to profile">
+          <a href="#">GO TO PROFILE</a> <!-- Link to the user's profile -->
+        </button>
+        <!-- Dismiss button -->
+        <button class="dismiss-button" label="Dismiss">
+          <a href="#">DISMISS</a> <!-- Dismisses the current notification -->
+        </button>
+      </div>
+    </header>
+  </div>
+
+  <hr> <!-- Horizontal rule to separate sections -->
+
+  <!-- Charity section -->
+  <section class="charity-section">
+    <h4>Trending Charities</h4> <!-- Title for the charity section -->
+
+    <!-- Charity card wrapper -->
+    <div class="charity-wrapper">
+      <!-- Charity card 1 -->
+      <div class="charity-card" label="Charity Card 1">  
+        <picture>
+          <!-- Source for the image -->
+          <source srcset="images/hands720.jpg, images/hands1280.png">
+          <!-- Fallback image -->
+          <img src="images/hands1280.png" width="100%">
+        </picture>
+
+        <!-- Charity information -->
+        <div class="charity-info">
+          <h2 class="charity-title">St. Loueis Welfare Org.</h2> <!-- Charity title -->
+          <progress class="charity-progress" value="50" max="100"></progress> <!-- Progress bar for funds raised -->
+          <!-- Sub-information about the charity -->
+          <div class="charity-subinfo">
+            <div class="charity-tagline"><p>TOTAL RAISED</p></div> <!-- Tagline -->
+            <div class="charity-price"><p><del>$10,000</del> <span>$12,500</span></p></div> <!-- Amount raised -->
+          </div>
+        </div>
+      </div> <!-- End of Charity card 1 -->
+
+      <!-- Charity card 2 -->
+      <div class="charity-card" label="Charity Card 2">  
+        <picture>
+          <!-- Source for the image -->
+          <source srcset="images/construction720.png, images/construction1280.png">
+          <!-- Fallback image -->
+          <img src="images/construction1280.png" width="100%">
+        </picture>
+
+        <!-- Charity information -->
+        <div class="charity-info">
+          <h2 class="charity-title">Ghana Residential Fund</h2> <!-- Charity title -->
+          <progress class="charity-progress" value="50" max="100"></progress> <!-- Progress bar for funds raised -->
+          <!-- Sub-information about the charity -->
+          <div class="charity-subinfo">
+            <div class="charity-tagline"><p>TOTAL RAISED</p></div> <!-- Tagline -->
+            <div class="charity-price"><p><del>$40,000</del> <span>$50,000</span></p></div> <!-- Amount raised -->
+          </div>
+        </div>
+      </div> <!-- End of Charity card 2 -->
+
+    </div> <!-- End of Charity card wrapper -->
+  </section> <!-- End of Charity section -->
+
+  <!-- Footer section -->
+  <footer class="nav-footer">
+    <nav>
+      <ul>
+        <!-- Navigation items -->
+        <li class="list-item"><a href="index.html" ><i class="material-icons">home</i>HOME</a></li>
+        <li class="list-item"><a href="charity.html" id="charities"><i class="material-icons">favorite</i>CHARITIES</a></li>
+        <li class="list-item"><a href="#explore" id="explore"><i class="material-icons">search</i>EXPLORE</a></li>
+        <li class="list-item"><a href="#profile" id="profile"><i class="material-icons">person</i>PROFILE</a></li>
+      </ul>
+    </nav>
+  </footer> <!-- End of Footer section -->
+
+</body>
+</html>
