@@ -1,63 +1,70 @@
-  body {
-    font-family: 'Open Sans';
-  }
-  
-  .home-header {
-    text-align: center;
-  }
-  
-  .home-header h1 {
-    color: #3484ed;
-    font-weight: bold;
-    font-size: 1.5rem;
-  }
-  
-  .home-header h3 {
-    color: #797d83;
-    font-weight: lighter;
-  }
-  
-  .home-button {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .home-button a {
-    background-color: #3484ed;
-    border: 2px solid #3484ed;
-    color: white;
-    font-size: 16px;
-    padding: 18px 75px;
-    margin: 30px 60px;
-    font-weight: bold;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    }
-  
-  .home-button a:hover {
-    transform: scale(1.5); 
-    transition: transform 0.5s ease; 
-  }
-  
-  .home-header {
-    text-align: center;
-  }
+  /* Setting font family for the whole document */
+body {
+  font-family: 'Open Sans';
+}
 
-  .home-header h1 {
-    color: #3484ed;
-    font-weight: bold;
-    font-size: 2.3rem;
-    padding: 1rem;
-  }
-  
-  .home-header h3 {
-    color: #797d83;
-    font-size: 1.5rem;
-  }
+/* Centering the content in the header */
+.home-header {
+  text-align: center;
+}
 
-  .home-button a:focus {
-    background-color: #3484ed;
-    color: white;
-  }
+/* Styling for the main header title */
+.home-header h1 {
+  color: #3484ed;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Styling for the header slogan */
+.home-header h3 {
+  color: #797d83;
+  font-weight: lighter;
+}
+
+/* Centering the button */
+.home-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the button */
+.home-button a {
+  background-color: #3484ed;
+  border: 2px solid #3484ed;
+  color: white;
+  font-size: 16px;
+  padding: 18px 75px;
+  margin: 30px 60px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover effect for the button */
+.home-button a:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s ease;
+}
+
+/* Additional styling for the main header title */
+.home-header h1 {
+  color: #3484ed;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding: 1rem;
+}
+
+/* Additional styling for the header slogan */
+.home-header h3 {
+  color: #797d83;
+  font-size: 1.5rem;
+}
+
+/* Styling for the focused state of the button */
+.home-button a:focus {
+  background-color: #3484ed;
+  color: white;
+}
+
   
